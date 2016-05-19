@@ -1,0 +1,16 @@
+{
+    "name": "dmitry/quadrilateral.loc",
+    "description": "oop quadrilateral",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dmitry",
+            "email": "zrayev@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
