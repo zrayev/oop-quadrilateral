@@ -1,6 +1,6 @@
 <?php
 
-namespace Quadrilateral;
+namespace Quadrilateral\Base;
 
 trait QuadrilateralTrait
 {
