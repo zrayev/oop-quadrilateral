@@ -17,7 +17,7 @@ final class FigureRectangle implements Quadrilateral
    */
   public function __construct($name = "Rectangle")
   {
-    $this->name = $name;
+    $this->setName($name);
     $this->getFigureName();
   }
 

@@ -17,7 +17,7 @@ final class FigureTrapezium implements Quadrilateral
    */
   public function __construct($name = "Trapezium")
   {
-    $this->name = $name;
+    $this->setName($name);
     $this->getFigureName();
   }
 

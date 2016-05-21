@@ -17,7 +17,7 @@ final class FigureSquare implements Quadrilateral
    */
   public function __construct($name = "Square")
   {
-    $this->name = $name;
+    $this->setName($name);
     $this->getFigureName();
   }
 

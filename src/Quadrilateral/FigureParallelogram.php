@@ -17,7 +17,7 @@ final class FigureParallelogram implements Quadrilateral
    */
   public function __construct($name = "Parallelogram")
   {
-    $this->name = $name;
+    $this->setName($name);
     $this->getFigureName();
   }
 

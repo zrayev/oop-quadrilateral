@@ -9,6 +9,12 @@ trait QuadrilateralTrait
    */
   public function getFigureName()
   {
-    echo "$this->name";
+    $text = "Quadrilateral:";
+    echo "$text\n" . $this->getName();
   }
+
+  /**
+   * @return string
+   */
+  abstract public function getName();
 }

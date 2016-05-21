@@ -17,7 +17,7 @@ final class FigureRhombus implements Quadrilateral
    */
   public function __construct($name = "Rhombus")
   {
-    $this->name = $name;
+    $this->setName($name);
     $this->getFigureName();
   }
 
