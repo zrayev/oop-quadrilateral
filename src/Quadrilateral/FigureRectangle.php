@@ -2,10 +2,10 @@
 
 namespace Quadrilateral;
 
-final class FigureRectangle
+final class FigureRectangle implements Quadrilateral
 {
   use QuadrilateralTrait;
-  
+
   protected $name;
 
   /**

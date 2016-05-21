@@ -2,7 +2,7 @@
 
 namespace Quadrilateral;
 
-class FigureSquare
+final class FigureSquare implements Quadrilateral
 {
   use QuadrilateralTrait;
 

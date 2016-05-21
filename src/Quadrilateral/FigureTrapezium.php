@@ -2,7 +2,7 @@
 
 namespace Quadrilateral;
 
-final class FigureTrapezium
+final class FigureTrapezium implements Quadrilateral
 {
   use QuadrilateralTrait;
   

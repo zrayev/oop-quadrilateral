@@ -2,7 +2,7 @@
 
 namespace Quadrilateral;
 
-final class FigureRhombus
+final class FigureRhombus implements Quadrilateral
 {
   use QuadrilateralTrait;
   
