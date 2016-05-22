@@ -16,14 +16,14 @@ $rectangle = new FigureRectangle();
 $rectangle->getName();
 echo "<br>";
 
-$rectangle = new FigureRhombus();
-$rectangle->getName();
+$rhombus = new FigureRhombus();
+$rhombus->getName();
 echo "<br>";
 
-$rectangle = new FigureSquare();
-$rectangle->getName();
+$square = new FigureSquare();
+$square->getName();
 echo "<br>";
 
-$rectangle = new FigureTrapezium();
-$rectangle->getName();
+$trapezium = new FigureTrapezium();
+$trapezium->getName();
 echo "<br>";
